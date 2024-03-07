@@ -1,0 +1,562 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+    transition: all;
+    animation: ease-in;
+    animation-duration: '';
+    animation-name: '';
+    animation-direction: alternate-reverse;
+    
+}
+
+.navbar{
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.926);
+    color: white;
+    display: flex;
+    align-items: center;
+   justify-content: space-evenly;
+}
+
+
+.nav-logo{
+    height: 80px;
+    width: 100px;
+   
+}
+
+.logo{
+    background-image: url("/static/amacln/images/logo1.png");
+    background-size: cover;
+    height: 80px;
+    width: 80px;
+    
+    margin-left: 5px;
+    
+}
+.border{
+    border: 2px solid transparent;
+    border-radius: 5px;
+}
+.border:hover{
+    border: 2px solid red ;
+
+}
+
+
+/** Box2 **/
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+}
+
+.add-sec{
+    font-size: 1rem;
+}
+
+.add-icon{
+    display: flex;
+  
+}
+
+.nav-address{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.title:hover{
+    background-color:black;
+    font-size: 20px;
+    color:white;
+    border-radius:5px ;    
+}
+
+  /** Box3 **/
+
+.nav-search{
+    display: flex;
+    margin-left: 50px;
+    background-color:white;
+    color: black;
+    width: 400px;
+    height: 40px;
+    border-radius: 5px ;
+    justify-content: space-evenly;
+}   
+.search-input:hover{
+    font-size: 20px;
+}
+.search-select:hover{
+    font-size: 20px;  
+}
+.search-select{
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    font-size: 1rem;
+}
+.search-input{
+    width: 80%;
+    font-size: 1rem;
+    border: none;
+    
+}
+
+.search-icon:hover{
+    font-size: 20px;
+}
+.search-icon{
+    margin-top: 10px;
+    color: red;
+   
+    
+}
+.nav-address:hover{
+    
+    font-size: 20px;
+}
+
+
+.nav-signin:hover{
+    font-size: 20px;
+
+}
+.user-logo{
+    margin-left: 10px; 
+}
+.user{
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.cart{
+    margin-top: 10px;
+}
+.cart-logo{
+    margin-left: 3px;
+}
+.nav-cart:hover{
+    font-size: 20px;
+}
+
+.panel{
+    height: 50px;
+    background-color: rgb(15, 25, 177);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.panel-ops p{
+    display: inline;
+   
+}
+.panel-ops{
+    margin-right: 50%;
+}
+.panel-deals:hover{
+    background-color: black;
+    font-size: 18px;
+    color: white;
+}
+.panel-all:hover{
+    background-color: black;
+    font-size: 18px;
+    color: white;
+}
+
+#p1{
+    margin-left: 15px;
+}
+#p2{
+    margin-left: 15px;
+}
+#p3{
+    margin-left: 15px;
+}
+#p4{
+    margin-left: 15px;
+}
+#p5{
+    margin-left: 15px;
+}
+#p1:hover{
+    border-radius: 5px;
+    border: 2px solid red;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+}
+#p2:hover{
+    border-radius: 5px;
+    border: 2px solid red;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+}
+#p3:hover{
+    border-radius: 5px;
+    border: 2px solid red;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+}
+#p4:hover{
+    border-radius: 5px;
+    border: 2px solid red;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+}
+#p5:hover{
+    border-radius: 5px;
+    border: 2px solid red;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+}
+.hero-section{
+    background-image:url("/static/amacln/images/hero3.jpg");
+    height: 450px;
+    background-size: cover;
+   
+}
+
+/** Box-section **/
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:rgb(10, 10, 239);
+
+}
+.box{
+    height: 250px;
+    border: 2px solid black;
+    width: 225px;
+    text-align: center;
+    background-color: chartreuse;
+}
+.shop-section2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:rgb(10, 10, 239);
+}
+.boxx{
+    height: 250px;
+    border: 2px solid black;
+    width:225px;
+    text-align: center;
+    background-color: chartreuse;
+}
+.shop-section3{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:rgb(10, 10, 239);
+}
+.boxxx{
+    height: 250px;
+    border: 2px solid black;
+    width:225px;
+    text-align: center;
+    background-color: chartreuse;
+}
+.sec1-box1{
+    
+    background-image:url("/static/amacln/images/sec1-box1.jpg");
+    background-size: cover;
+}
+.sb1{
+    margin-top: 200px;
+    color:black;
+    height: 50px;
+    width: 225;
+    background-color:cyan;
+
+}
+.sec1-box2{
+    
+    background-image:url("/static/amacln/images/sec1-box2.jpg");
+    background-size: cover;
+}
+.sb2{
+    margin-top: 200px;
+    color:black;
+    height: 50px;
+    width: 225;
+    background-color:cyan;
+}
+.sec1-box3{
+    
+    background-image:url("/static/amacln/images/sec1-box3.jpg");
+    background-size: cover;
+}
+.sb3{
+    margin-top: 200px;
+    color:black;
+    height: 50px;
+    width: 225;
+    background-color:cyan;
+
+
+}
+.sec1-box4{
+    
+    background-image:url("/static/amacln/images/sec1-box4.jpg");
+    background-size: cover;
+}
+.sb4{
+    margin-top: 200px;
+    color:black;
+    height: 50px;
+    width: 225;
+    background-color:cyan;
+
+
+}
+.sec1-box5{
+    
+    background-image:url("/static/amacln/images/sec1-box5.jpg");
+    background-size: cover;
+}
+.sb5{
+    margin-top: 200px;
+    color:black;
+    height: 50px;
+    width: 225;
+    background-color:cyan;
+
+
+}
+.sec1-box6{
+    
+    background-image:url("/static/amacln/images/sec1-box6.jpg");
+    background-size: cover;
+}
+.sb6{
+    margin-top: 200px;
+    color:black;
+    height: 50px;
+    width: 225;
+    background-color:cyan;
+}
+
+/** section 2 **/
+.sec2-box1{
+    
+    background-image:url("/static/amacln/images/sec2-box1.jpg");
+    background-size: cover;
+}
+.sb1{
+    margin-top: 200px;
+    color:black;
+    height: 50px;
+    width: 225;
+    background-color:cyan;
+}
+.sec2-box2{
+    
+    background-image:url("/static/amacln/images/sec2-box2.jpg");
+    background-size: cover;
+}
+.sb2{
+    margin-top: 200px;
+    color:black;
+    height: 50px;
+    width: 225;
+    background-color:cyan;
+}
+.sec2-box3{
+    
+    background-image:url("/static/amacln/images/sec2-box3.jpg");
+    background-size: cover;
+}
+.sb3{
+    margin-top: 200px;
+    color:black;
+    height: 50px;
+    width: 225;
+    background-color:cyan;
+}
+.sec2-box4{
+    
+    background-image:url("/static/amacln/images/sec2-box4.jpg");
+    background-size: cover;
+}
+.sb4{
+    margin-top: 200px;
+    color:black;
+    height: 50px;
+    width: 225;
+    background-color:cyan;
+}
+.sec2-box5{
+    
+    background-image:url("/static/amacln/images/sec2-box5.jpg");
+    background-size: cover;
+}
+.sb5{
+    margin-top: 200px;
+    color:black;
+    height: 50px;
+    width: 225;
+    background-color:cyan;
+}
+.sec2-box6{
+    
+    background-image:url("/static/amacln/images/sec2-box6.jpg");
+    background-size: cover;
+}
+.sb6{
+    margin-top: 200px;
+    color:black;
+    height: 50px;
+    width: 225;
+    background-color:cyan;
+}
+
+/** section 3 **/
+.sec3-box1{
+    
+    background-image:url("/static/amacln/images/sec3-box1.jpg");
+    background-size: cover;
+}
+.sb1{
+    margin-top: 200px;
+    color:black;
+    height: 50px;
+    width: 225;
+    background-color:cyan;
+}
+.sec3-box2{
+    
+    background-image:url("/static/amacln/images/sec3-box2.jpg");
+    background-size: cover;
+}
+.sb2{
+    margin-top: 200px;
+    color:black;
+    height: 50px;
+    width: 225;
+    background-color:cyan;
+}
+.sec3-box3{
+    
+    background-image:url("/static/amacln/images/sec3-box3.jpg");
+    background-size: cover;
+}
+.sb3{
+    margin-top: 200px;
+    color:black;
+    height: 50px;
+    width: 225;
+    background-color:cyan;
+}
+.sec3-box4{
+    
+    background-image:url("/static/amacln/images/sec3-box4.jpg");
+    background-size: cover;
+}
+.sb4{
+    margin-top: 200px;
+    color:black;
+    height: 50px;
+    width: 225;
+    background-color:cyan;
+}
+.sec3-box5{
+    
+    background-image:url("/static/amacln/images/sec3-box5.jpg");
+    background-size: cover;
+}
+.sb5{
+    margin-top: 200px;
+    color:black;
+    height: 50px;
+    width: 225;
+    background-color:cyan;
+}   
+.sec3-box6{
+    
+    background-image:url("/static/amacln/images/sec3-box6.jpg");
+    background-size: cover;
+}
+.sb6{
+    margin-top: 200px;
+    color:black;
+    height: 50px;
+    width: 225;
+    background-color:cyan;
+}
+
+footer{
+    margin-top: 20px;
+}
+/** footer1 **/
+.foot-panel1{
+    background-color: darkgreen;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.foot-panel2{
+    background-color:cornflowerblue;
+    color:white;
+    font-weight: bold;
+    height: 180px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+
+ul{
+    margin-top: 20px;
+}
+
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #DDDDDD;
+
+}
+
+.foot-panel3{
+    background-color:rgba(29, 28, 2, 0.979);
+    color: white;
+    border-top: 2px solid black;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo1{
+    background-image: url("/static/amacln/images/logo1.png");
+    background-size: cover;
+    height: 80px;
+    width: 80px;
+    
+}
+.foot-panel4{
+    background-color: rgba(0, 0, 0, 0.851);
+    height: 70px;
+    color: white    ;
+}
+
+.pages{
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.copyright{
+    margin-top: 5px;
+    font-size: 1rem;
+    text-align: center;
+}
